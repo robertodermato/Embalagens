@@ -33,6 +33,6 @@ public abstract class Embalagem {
 
     @Override
     public String toString() {
-        return "Código: " + codigoRef + " Custo: " + custoUnit;
+        return "Código: " + codigoRef + " Custo: R$ " + custoUnit;
     }
 }
